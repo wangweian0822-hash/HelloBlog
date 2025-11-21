@@ -1,29 +1,10 @@
----
-title: "如何在 GitHub 上提交你的第一份 Pull Request"
-date: 2025-11-21
-tags: ["GitHub", "开源", "Pull Request", "新手指南"]
----
-
-# 如何在 GitHub 上提交你的第一份 Pull Request
-
-很多刚开始接触 GitHub 的同学，在第一次尝试提交 Pull Request（简称 PR）时会感到困惑。
-但其实整个过程并不复杂，只要掌握正确步骤，你也可以轻松在开源项目中贡献自己的力量。
-
-## 1. Fork 原仓库
-打开你想参与的项目，点击右上角 **Fork**，把项目复制到自己的账户下。
-
-## 2. 创建一个新的分支
-不要直接在 main 上改，创建一个新分支，例如 `add-first-blog`，把修改放在分支里更安全。
-
-## 3. 添加/修改内容
-在你的分支上添加 Markdown 文件（文件名以 `.md` 结尾），放在 `posts/` 或项目要求的目录中，确保包含 front-matter（title/date/tags）。
-
-## 4. 提交 Pull Request
-在 GitHub 上点击 **Compare & pull request**，选择目标仓库为原作者仓库，填写说明：你做了什么、为什么要改、需要注意点。
-
-## 5. 等待 Review 并按需修改
-维护者可能要求你修改格式或内容。你只需在同一分支继续提交，PR 会自动更新。
-
----
-
-祝贺你！完成 PR 是加入开源社区的第一步。📣
+| 博客名称               | 链接                                                                                 | 主要内容               | 博主          | 标签         | 可访问性       | 更新状态    | 一句话推荐                   | RSS                                                                                  |
+| ------------------ | ---------------------------------------------------------------------------------- | ------------------ | ----------- | ---------- | ---------- | ------- | ----------------------- | ------------------------------------------------------------------------------------ |
+| **TheLynan**       | [https://cn.thelynan.com/](https://cn.thelynan.com/)                               | 旅行游记, 前端工程经验       | Lynan       | 旅行 / 前端    | 🇨🇳 可访问   | 🔥 活跃   | 博客模板简洁，旅行生活内容图文并茂，更新活跃  | [https://cn.thelynan.com/feed.xml](https://cn.thelynan.com/feed.xml)                 |
+| **阮一峰的网络日志**       | [https://www.ruanyifeng.com/blog/](https://www.ruanyifeng.com/blog/)               | 前端基础, JS, Web 技术科普 | 阮一峰         | 前端 / 科普    | 🇨🇳 可访问   | 🟡 不定期  | 技术小白也能看懂的高质量中文 Web 科普   | [https://www.ruanyifeng.com/blog/atom.xml](https://www.ruanyifeng.com/blog/atom.xml) |
+| **overreacted**    | [https://overreacted.io/](https://overreacted.io/)                                 | React, 前端思想, 工程经验  | Dan Abramov | 前端 / React | 🇨🇳 偶尔需代理 | 🔵 少更   | React 核心作者写的前端思想文章，质量顶尖 | [https://overreacted.io/rss.xml](https://overreacted.io/rss.xml)                     |
+| **阮一峰·科技爱好者周刊**    | [https://www.ruanyifeng.com/blog/weekly/](https://www.ruanyifeng.com/blog/weekly/) | 每周技术趋势、资讯、工具       | 阮一峰         | 技术趋势       | 🇨🇳 可访问   | 🔥 每周更新 | 国内最好的技术周刊之一，信息密度极高      | *同上 RSS*                                                                             |
+| **木遥的窗子**          | [https://blog.farmostwood.net/](https://blog.farmostwood.net/)                     | 生活随笔, 文学, 世界观察     | 木遥          | 生活 / 文学    | 🇨🇳 可访问   | 🔥 活跃   | 中文世界最受欢迎的高质量散文博客之一      | [https://blog.farmostwood.net/feed.xml](https://blog.farmostwood.net/feed.xml)       |
+| **酷壳 CoolShell**   | [https://coolshell.cn/](https://coolshell.cn/)                                     | 后端, 架构, 编程思想       | 陈皓          | 后端 / 架构    | 🇨🇳 需部分代理 | 🔵 偶尔更新 | 程序员都知道的高质量技术博客          | [https://coolshell.cn/feed](https://coolshell.cn/feed)                               |
+| **桃白白の小破站**        | [https://taobaibai.blog/](https://taobaibai.blog/)                                 | 日常, 工程, 工具笔记       | 桃白白         | 工程 / 生活    | 🇨🇳 可访问   | 🟡 不定期  | 简洁清爽，偏实用技巧类内容           | [https://taobaibai.blog/index.xml](https://taobaibai.blog/index.xml)                 |
+| **少数派 sspai 专栏博客** | [https://sspai.com/blogs](https://sspai.com/blogs)                                 | 生活效率, 工具, 数字生活     | 多作者         | 效率 / 数字生活  | 🇨🇳 可访问   | 🔥 高活跃  | 国内最好的效率工具文章集合           | 取决于作者，无统一 RSS                                                                        |
